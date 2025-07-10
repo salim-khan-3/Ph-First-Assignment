@@ -111,6 +111,7 @@
     padding: 50px 142px;
     width: 100%;
     border-radius: 24px;
+    margin-bottom: 137px;
 }
 .stats-numbers{
     display: flex;
@@ -132,4 +133,54 @@
 .active-user p{
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/**clint reviews**/
+.Client-Reviews-cards{
+    width: 366.67px;
+    background-color: #F2EDED;
+    border-radius: 24px;
+    padding: 24px;
+    border: 1px solid rgba(212, 212, 212, 0.589)
+}
+.Rating i{
+    margin-bottom: 24px;
+    color: #FFB805;
+}
+.mb{
+    margin-bottom: 8px;
+    font-size: 24px;
+    color: #1E1E1E;
+}
+.card p{
+    margin-bottom: 24px;
+    font-size: 16px;
+    color: #1E1E1E;
+}
+
+.reviewer-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.reviewer-info img{
+    border-radius: 50%;
+}
+.Reviewer-name{
+    display: block;
+}
+small{
+    color: #B3B3B3;
+}
+.Client-Reviews h3{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.Client-Reviews{
+    width: 100%;
+}
+.Review{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
