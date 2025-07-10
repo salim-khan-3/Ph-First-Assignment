@@ -17,11 +17,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .raleway {
   font-family: "Raleway", sans-serif;
-  font-weight: bold;
 }
 
 /* common style  */
 
+.title{
+    font-size: 42px;
+    color: #252432;
+}
 .primary-color {
     color: #4E47FF;
 }
@@ -43,6 +46,7 @@
     margin: 0 auto;
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .nav-bar{
     display: flex;
@@ -65,4 +69,35 @@
     font-weight: bold;
     color: #252432;
     margin-bottom: 37px;
+}
+
+
+/**main content**/
+.main-content-here{
+    width: 1440px;
+    padding: 116px 150px 14px 150px;
+    background-color: aqua;
+    margin: 0 auto;
+}
+
+.Action{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand{
+    width: 517px;
+}
+.brand h3{
+    margin-bottom: 23px;
+}
+.brand p{
+    font-size: 24px;
+    color: #252432;
+    margin-bottom: 23px;
+}
+.webflow-image img{
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
 }
