@@ -195,6 +195,7 @@ small{
     text-align: center;
     background-color:rgb(231, 226, 226) ;
     border-radius: 14px;
+    margin-bottom: 80.23px;
 }
 .focus h3{
     font-size: 50px;
@@ -209,4 +210,51 @@ small{
 }
 .focus img{
     border-radius: 48px;
+}
+
+
+/** contact form  **/
+.contact-section{
+    width: 100%;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 71px 0px;
+}
+label{
+    display:block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    padding: 20px 32px;
+    border-radius: 10px;
+    border: 1px solid black;
+    outline: none;
+    margin-bottom: 19px;
+    font-size: 20px;
+}
+#message{
+    padding: 20px 32px;
+    outline: none;
+    border-radius: 10px;
+    width: 100%;
+    margin-bottom: 19px;
+}
+.contact-text h2{
+    font-size: 97px;
+
+}
+.contact-form button {
+    padding: 19px 201px;
+    background-color: #4E47FF ;
+    color: #fff;
+    font-size: 16px;
+    font-style: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    width: 100%;
 }
