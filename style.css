@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-style: bold;
+}
+
+
+/* releway font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+/* common style  */
+
+.primary-color {
+    color: #4E47FF;
+}
+.primary-btn{
+    padding: 12px 36px;
+    background-color: #4E47FF ;
+    color: #fff;
+    font-size: 16px;
+    font-style: bold;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+/* header  */
+.header{
+    width: 1440px;
+    height: 698px;
+    padding:0px 149.5px 152px 149.5px;
+    margin: 0 auto;
+    background-image: url(./Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+.nav-bar h3{
+    font-size: 34px;
+    font-weight: 700;
+}
+.hero-section{
+    width: 905px;
+    text-align: center;
+    margin: auto;
+    margin-top: 158px;
+}
+.hero-section h1{
+    font-size: 65px;
+    font-weight: bold;
+    color: #252432;
+    margin-bottom: 37px;
+}
