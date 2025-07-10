@@ -19,7 +19,7 @@
   font-family: "Raleway", sans-serif;
 }
 
-/* common style  */
+/** common style  **/
 
 .title{
     font-size: 42px;
@@ -76,14 +76,17 @@
 .main-content-here{
     width: 1440px;
     padding: 116px 150px 14px 150px;
-    background-color: aqua;
+    /* background-color: aqua; */
     margin: 0 auto;
 }
 
+
+/**Action**/
 .Action{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 116px;
 }
 .brand{
     width: 517px;
@@ -100,4 +103,33 @@
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+/**status**/
+.status{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding: 50px 142px;
+    width: 100%;
+    border-radius: 24px;
+}
+.stats-numbers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.status h3{
+    color: #252432;
+    font-size: 38px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+.strong-number{
+    font-size: 80px;
+}
+.active-user{
+    text-align: center;
+}
+.active-user p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
 }
