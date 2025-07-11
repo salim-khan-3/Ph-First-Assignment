@@ -216,11 +216,11 @@ small{
 /** contact form  **/
 .contact-section{
     width: 100%;
-    background-color: red;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 71px 0px;
+    margin-bottom: 14px;
 }
 label{
     display:block;
@@ -231,10 +231,12 @@ input{
     width: 100%;
     padding: 20px 32px;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid #D6DEEF;
     outline: none;
     margin-bottom: 19px;
     font-size: 20px;
+    background-color:#F2EDED;
+    border:1px solid gray;
 }
 #message{
     padding: 20px 32px;
@@ -242,6 +244,8 @@ input{
     border-radius: 10px;
     width: 100%;
     margin-bottom: 19px;
+    background-color:#F2EDED;
+    border:1px solid gray;
 }
 .contact-text h2{
     font-size: 97px;
@@ -258,3 +262,44 @@ input{
     outline: none;
     width: 100%;
 }
+
+
+
+/**footer**/
+footer{
+    width: 1440px;
+    height: 428px;
+    margin:auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.main-footer-content{
+    width: 531px;
+    height: auto;
+}
+.logo{
+    font-size: 100px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.main-footer-content p{
+    font-size: 17px;
+    color: #8987A1;
+    margin-bottom: 20px;
+}
+.page-link ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 48px;
+}
+.page-link ul li{
+    list-style: none;
+}
+.page-link ul li a{
+    text-decoration: none;
+    color: #8987A1;
+}
+
