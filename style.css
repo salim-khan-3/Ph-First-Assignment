@@ -14,7 +14,6 @@
 
 
 /* releway font  */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .raleway {
   font-family: "Raleway", sans-serif;
 }
@@ -23,7 +22,7 @@
 
 .title{
     font-size: 42px;
-    color: #252432;
+    color: #1E1E1E;
 }
 .primary-color {
     color: #4E47FF;
@@ -51,7 +50,7 @@
 .header{
     width: 1440px;
     height: 698px;
-    padding:0px 149.5px 152px 149.5px;
+    /* padding:0px 149.5px 152px 149.5px; */
     margin: 0 auto;
     background-image: url(./Assets/Hero-bg.png);
     background-repeat: no-repeat;
@@ -62,6 +61,8 @@
     align-items: center;
     justify-content: space-between;
     padding: 50px 0px;
+    width: 1140px;
+    margin: auto;
 }
 .nav-bar h3{
     font-size: 34px;
@@ -70,8 +71,7 @@
 .hero-section{
     width: 905px;
     text-align: center;
-    margin: auto;
-    margin-top: 158px;
+    margin: 160px 267px 152px 267px;
 }
 .hero-section h1{
     font-size: 65px;
@@ -180,6 +180,7 @@
 }
 .Reviewer-name{
     display: block;
+    color: #757575;
 }
 small{
     color: #B3B3B3;
@@ -219,6 +220,8 @@ small{
 }
 .get-started{
     margin-bottom: 20px;
+    font-size: 16px;
+    font-style: normal;
 }
 .focus img{
     border-radius: 48px;
@@ -256,7 +259,8 @@ input{
     width: 100%;
     margin-bottom: 19px;
     background-color:#F2EDED;
-    border: 1px solid #D6DEEF;
+    border: 1px solid #D6DDED;
+    font-size: 20px;
 }
 .contact-text h2{
     font-size: 97px;
@@ -264,14 +268,20 @@ input{
 }
 .contact-form button {
     padding: 19px 201px;
-    background-color: #4E47FF ;
+    background-color: #4E47FF;
     color: #fff;
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold; 
     border-radius: 10px;
     border: none;
     outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease; 
     width: 100%;
+}
+.contact-form button:hover{
+    background-color: #372bff;     
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
 }
 
 
