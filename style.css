@@ -28,16 +28,25 @@
 .primary-color {
     color: #4E47FF;
 }
-.primary-btn{
+.primary-btn {
     padding: 12px 36px;
-    background-color: #4E47FF ;
+    background-color: #4E47FF;
     color: #fff;
     font-size: 16px;
-    font-style: bold;
+    font-weight: bold; 
     border-radius: 10px;
     border: none;
     outline: none;
+    cursor: pointer;
+    transition: all 0.3s ease; 
 }
+
+
+.primary-btn:hover {
+    background-color: #372bff;     
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+}
+
 /** header  **/
 .header{
     width: 1440px;
